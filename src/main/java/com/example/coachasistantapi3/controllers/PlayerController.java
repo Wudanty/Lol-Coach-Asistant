@@ -12,7 +12,6 @@ import java.util.List;
 @CrossOrigin(methods = {RequestMethod.POST, RequestMethod.DELETE, RequestMethod.GET, RequestMethod.PUT})
 public class PlayerController {
     private PlayerService playerService;
-
     public PlayerController(PlayerService playerService) {
         this.playerService = playerService;
     }
