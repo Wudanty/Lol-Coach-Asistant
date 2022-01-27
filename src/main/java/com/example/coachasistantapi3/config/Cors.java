@@ -14,7 +14,7 @@ public class Cors {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.addAllowedOrigin("https://lolplayerstats.herokuapp.com/home");
+        config.addAllowedOrigin("https://lolplayerstats.herokuapp.com");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);
